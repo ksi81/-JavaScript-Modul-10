@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modul 10</title>
+  <link rel="stylesheet" href="my.css">
+</head>
+
+<body>
+  <section>
+    <button class="btn getAllBtn">Find ALL users</button>
+    <br>
+    <hr>
+    <input class="input inputId" autofocus="autofocus" type="text" placeholder="Enter user ID">
+    <div class="tooltip">
+      <button class="btn   getByIdBtn">Find user by id</button>
+      <span class="tooltiptext">Enter user ID before push</span>
+    </div>
+    <div class="tooltip">
+      <button class="btn delBtn">Remove user </button>
+      <span class="tooltiptext">Enter user ID before push</span>
+    </div>
+    <div class="tooltip">
+      <button class="btn updateBtn">Update user by id</button>
+      <span class="tooltiptext">Before you press the button, enter id, name and age</span>
+    </div>
+    <br>
+    <input class="input getByName" type="text" placeholder="Enter user name">
+    <input class="input getByAge" type="text" placeholder="Enter user age">
+    <div class="tooltip">
+      <button class="btn addBtn">Add new user</button>
+      <br>
+      <span class="tooltiptext">Before you press the button, enter name and age</span>
+    </div>
+  </section>
+  <table class="table-results">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>AGE</th>
+      </tr>
+    </thead>
+    <tbody class="result"></tbody>
+  </table>
+  <script src="my.js"></script>
+</body>
+
+</html>
